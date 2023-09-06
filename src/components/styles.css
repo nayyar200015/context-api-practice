@@ -1,0 +1,42 @@
+.header {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    margin-top: 0;
+}
+
+.nav>li a {
+    color: white;
+}
+
+
+.nav>li a.active {
+    color: turquoise;
+    font-size: 20px;
+}
+
+.productContainer {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.products {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
